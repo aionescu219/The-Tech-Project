@@ -1,0 +1,259 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color:#20222c;
+}
+
+a {
+    color: #56cbf1;
+}
+
+.main-body {
+    top: 50px;
+    position: relative;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+nav {
+    background-color: #20222c;
+    box-shadow: 0 1px 1px #ffffff;
+  }
+
+#navbarNav .navbar-nav li {
+    margin-bottom: -8px;
+}
+
+header {
+    margin-top: 2rem;
+    overflow: hidden;
+    display: none;
+}
+
+.big-image {
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5rem;
+}
+
+.heading-detail {
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+    color: #56cbf1;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav li.active {
+        border-bottom: 3px solid #ed5339;
+    }
+    .big-image {
+        display: block;
+    }
+}
+
+.main-nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+@media (min-width: 768px) {
+    body .body-lowered {
+        top: 50px;
+    }
+
+    .main-nav-bar {
+        position: relative;
+    }
+
+    .main-body {
+        top: 0;
+    }
+
+    header {
+        display: block;
+    }
+}
+
+.text-block {
+    padding-top: 0;
+}
+
+@media (min-width: 600px) {
+    .text-block {
+        padding-top: 50px;
+    }
+}
+
+.container .row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar-fixed {
+    position: fixed;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo img {
+    z-index: -1;
+    max-width: 75px;
+    max-height: 75px;
+    height: auto;
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+}
+
+.main-logo h1 {
+    position: relative;
+    top: 10px;
+}
+
+.custom-button {
+    background: none;
+    display: inline-block;
+    color: white;
+    border: solid 1px white;
+    border-radius: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.disabled-button {
+    color: grey;
+    border: none;
+    pointer-events: none;
+}
+
+.custom-button:hover {
+    color: #ed5339;
+    text-decoration: none;
+    background-color: white;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: -50px;
+    margin-top: 200px;
+    background-color: #232b40;
+    width: 100%;
+    min-height: 100px;
+}
+
+.footer-list-items li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+    color: white;
+}
+
+.footer-list-items li a {
+    color: white;
+}
+
+.footer-list-items li:hover {
+    color: #56cbf1;
+}
+
+@media (min-width: 992px) {
+    .footer-list-items li {
+        display: inline-block;
+    }
+}
+
+form div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    color:  #56cbf1;
+}
+
+.text-input {
+    border-radius: 1rem;
+    border: none;
+    padding: .5rem 1rem .5rem 1rem;
+    width: 80%;
+    height: 2em;
+}
+
+textarea.text-input {
+    width: 80%;
+    height: 15em;
+}
+
+@media (min-width: 768px) {
+    .text-input {
+        width: 20em;
+    }
+    textarea.text-input {
+        width: 40em;
+    }
+}
+
+.copyright {
+    position: relative;
+    left: 4em;
+}
+
+.orange {
+    color:#ed5339;
+}
+
+.brightblue {
+    color: #56cbf1;
+}
+
+
+/*Homepage CSS*/
+
+.big-apply {
+    border: solid 2px white;
+    margin: 5rem auto 5rem auto;
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+.apply-parent {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*My Project CSS*/
+
+.project-progress {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .project-progress {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-progress {
+        width: 30%;
+    }
+}
+
+#viewFeedbackDiv, #uploadFileDiv {
+    margin-top: 50px;
+}

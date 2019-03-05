@@ -1,0 +1,16 @@
+{
+    "feedback": [
+        {
+            "check-in": 1,
+            "feedback": "You still have a long way to go, but good effort. For the next stage, I want to see improvements in the way you handle edge cases and a more thorough treatment of the primary use cases. Do more user research! It only takes a short time with a few people to make large improvements."
+        },
+        {
+            "check-in": 2,
+            "feedback": "This looks really great! I love how you considered all aspects of the process and conducted user interviews with your target demographic. I'm excited to see where this is going. A word of advice: pay more attention to the fine details like color and typography. Reach out to me with any questions :)"
+        },
+        {
+            "check-in": 3,
+            "feedback": "Great job! This is what I hoped to see at the end when I took you on as a mentee. You've achieved something worthy of your portfolio and the attention of recruiters. I look forward to seeing your future projects develop."
+        }
+    ]
+}
